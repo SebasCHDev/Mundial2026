@@ -1,2 +1,18 @@
 # Mundial2026
 Simulador del Mundial 2026 en JavaFX
+Aplicación en JavaFX que simula el sorteo, fase de grupos y fase final del Mundial 2026.
+
+## Características
+- Sorteo automático de 12 grupos (A-L).
+- Simulación de partidos con probabilidades reales (basadas en ranking FIFA).
+- Clasificación: 2 primeros por grupo + 8 mejores terceros → 32 equipos.
+- Fase final completa: dieciseisavos, octavos, cuartos, semifinales, final y partido por el tercer lugar.
+- Guardado de resultados en archivo `.txt`.
+
+## Requisitos
+- Java 17+
+- Maven
+
+## Ejecutar
+```bash
+mvn javafx:run
